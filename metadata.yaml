@@ -1,0 +1,184 @@
+project:
+  name: Percivo
+  tagline: "A floating magnification lens for Android — read anything, anywhere."
+  version: "1.0.0"
+  status: "Active Development"
+  release_date: null
+  last_updated: "2026-03-10"
+  license: "MIT"
+  language: "TypeScript"
+  framework: "Expo / React Native"
+
+platform:
+  primary: Android
+  supported:
+    - Android Phones
+    - Android Tablets (planned)
+    - ChromeOS (planned)
+  minimum_android_version: "8.0 (Oreo, API 26)"
+  target_android_version: "14 (API 34)"
+  content_rating: "Everyone"
+  category: "Accessibility / Utilities"
+
+description:
+  short: >
+    Percivo is a mobile accessibility utility that provides a floating
+    magnification lens, enabling users to read and inspect small text
+    or UI elements on their Android screen in real time.
+  extended: >
+    Percivo delivers on-demand screen magnification through a draggable
+    floating lens that works on top of any application. Users can activate
+    it via a floating button, triple-tap gesture, or volume shortcut.
+    The lens supports adjustable zoom levels, multiple sizes, and three
+    magnification modes: Lens Mode, Full-Screen Mode, and Hybrid Mode.
+    Built with accessibility at its core, Percivo is designed for users
+    with visual impairments, those reading small text, and anyone who needs
+    fast, flexible magnification without leaving their current app.
+
+author:
+  name: "Mohd Aqdas Asim"
+
+repository:
+  github: "https://github.com/MohdAqdasAsim/Percivo"
+  website: "https://percivo.app"
+  play_store: null                 # To be updated on Play Store listing
+  issues: "https://github.com/MohdAqdasAsim/Percivo/issues"
+  discussions: "https://github.com/MohdAqdasAsim/Percivo/discussions"
+
+social:
+  twitter: null
+  linkedin: null
+  github: "https://github.com/MohdAqdasAsim/Percivo"
+
+users:
+  primary:
+    - "Users with low vision or visual impairments"
+    - "Users reading small or dense text"
+    - "Users needing quick, on-demand magnification"
+  secondary:
+    - "Developers inspecting UI elements"
+    - "Designers checking interface details"
+    - "General users needing temporary zoom"
+
+features:
+  core:
+    - id: lens_mode
+      name: "Lens Mode"
+      description: "Movable floating window that magnifies a portion of the screen"
+      status: "planned"
+
+    - id: fullscreen_mode
+      name: "Full-Screen Mode"
+      description: "Magnifies the entire display"
+      status: "planned"
+
+    - id: hybrid_mode
+      name: "Hybrid Mode"
+      description: "Switch between lens and full-screen magnification"
+      status: "planned"
+
+    - id: floating_button
+      name: "Floating Accessibility Button"
+      description: "Always-visible shortcut to activate the lens"
+      status: "planned"
+
+    - id: triple_tap
+      name: "Triple-Tap Activation"
+      description: "Activate magnification with three taps on the screen"
+      status: "planned"
+
+    - id: volume_shortcut
+      name: "Volume Button Shortcut"
+      description: "Hold both volume buttons to toggle the magnifier"
+      status: "planned"
+
+    - id: drag_handle
+      name: "Draggable Lens"
+      description: "Move the lens freely across the screen"
+      status: "planned"
+
+    - id: pinch_zoom
+      name: "Pinch-to-Zoom"
+      description: "Adjust zoom level with pinch gesture on the lens"
+      status: "planned"
+
+    - id: zoom_slider
+      name: "Zoom Level Slider"
+      description: "Precise zoom control via an on-screen slider"
+      status: "planned"
+
+    - id: lens_sizes
+      name: "Adjustable Lens Sizes"
+      description: "Select from small, medium, large, or full-width lens"
+      status: "planned"
+
+    - id: always_on
+      name: "Always-On Mode"
+      description: "Keep magnification active across app switches"
+      status: "planned"
+
+    - id: smooth_scroll
+      name: "Smooth Scrolling"
+      description: "Optional smooth scrolling within the lens view"
+      status: "planned"
+
+    - id: temp_magnification
+      name: "Temporary Magnification"
+      description: "Press and hold to magnify; release to dismiss"
+      status: "planned"
+
+permissions:
+  - name: "ACCESSIBILITY_SERVICE"
+    purpose: "Render the magnification overlay over other applications"
+    sensitive: true
+
+  - name: "SYSTEM_ALERT_WINDOW"
+    purpose: "Display the floating lens above other apps"
+    sensitive: true
+
+  - name: "FOREGROUND_SERVICE"
+    purpose: "Keep the magnification service active during use"
+    sensitive: false
+
+tags:
+  - accessibility
+  - magnifier
+  - zoom
+  - low-vision
+  - screen-reader
+  - floating-lens
+  - android
+  - utility
+  - visual-impairment
+  - overlay
+
+roadmap:
+  - version: "1.0.0"
+    title: "Initial Release"
+    description: "Core lens mode, full-screen mode, and basic activation methods"
+    status: "in_progress"
+    estimated: "Q2 2026"
+
+  - version: "1.1.0"
+    title: "Enhanced Controls"
+    description: "Hybrid mode, smooth scrolling, always-on mode"
+    status: "planned"
+    estimated: "Q3 2026"
+
+  - version: "1.2.0"
+    title: "Visual Filters"
+    description: "Custom lens shapes, color filters (high contrast, inverted, grayscale)"
+    status: "planned"
+    estimated: "Q4 2026"
+
+  - version: "1.3.0"
+    title: "Personalization"
+    description: "Gesture customization, accessibility profiles, per-app settings"
+    status: "planned"
+    estimated: "Q1 2027"
+
+  - version: "2.0.0"
+    title: "Platform Expansion"
+    description: "Tablet support, ChromeOS compatibility, widget shortcuts"
+    status: "planned"
+    estimated: "Q3 2027"
